@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from ci_cd.hello_world import HelloWorld
+from src.ci_cd.hello_world import HelloWorld
 
 
 class TestHelloWorld(TestCase):
