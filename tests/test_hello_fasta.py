@@ -89,7 +89,3 @@ class TestFastaValidator(unittest.TestCase):
         """Testa GC content com letras minúsculas"""
         self.assertAlmostEqual(contar_gc_content("atcg"), 50.0)
         self.assertAlmostEqual(contar_gc_content("AtCg"), 50.0)
-
-
-if __name__ == '__main__':
-    unittest.main()
