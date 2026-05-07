@@ -15,3 +15,6 @@ class TestHelloWorld(TestCase):
 
     def test_hello_world4(self):
         self.assertEqual(HelloWorld(name="José").say_bye(from_who="Andreia"), "Andreia said bye to José.")
+
+    def test_hello_world5(self):
+        self.assertTrue(HelloWorld(name="José").has_5_dogs(5))
