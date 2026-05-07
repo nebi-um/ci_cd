@@ -7,6 +7,6 @@ class HelloWorld:
         return f"Hello {self.name}!"
     
     def say_bye(self, from_who: str) -> str:
-        return f"{from_who} said bye to {self.name}."
+        return f"{from_who} said by to {self.name}."
 
 

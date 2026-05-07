@@ -14,4 +14,4 @@ class TestHelloWorld(TestCase):
         self.assertNotEqual(HelloWorld(name="José").say_hello(), "Hello José..?")
 
     def test_hello_world4(self):
-        self.assertEqual(HelloWorld(name="José").say_bye(from_who="Andreia"), "Andreia said by to José.")
+        self.assertEqual(HelloWorld(name="José").say_bye(from_who="Andreia"), "Andreia said bye to José.")
