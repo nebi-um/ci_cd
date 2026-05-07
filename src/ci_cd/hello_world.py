@@ -10,6 +10,6 @@ class HelloWorld:
         return f"{from_who} said bye to {self.name}."
 
     def has_5_dogs(self, number_dogs: int) -> bool:
-        if number_dogs == 5:
+        if number_dogs == 4:
             return True
         else: False
